@@ -1,0 +1,21 @@
+﻿<Window x:Class="Voti.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Voti"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF45F12A" Offset="0"/>
+                <GradientStop Color="#FF48EEDF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <ListBox Name="Lista" HorizontalAlignment="Left" Height="217" Margin="291,147,0,0" VerticalAlignment="Top" Width="215"/>
+        <Button Content="Riempi lista" HorizontalAlignment="Left" Height="31" Margin="291,94,0,0" VerticalAlignment="Top" Width="215" Click="Riempi_Click"/>
+        <Label Content="        Lista dei voti" HorizontalAlignment="Left" Height="56" Margin="291,38,0,0" VerticalAlignment="Top" Width="215" FontSize="20"/>
+
+    </Grid>
+</Window>
